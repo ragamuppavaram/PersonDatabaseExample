@@ -1,0 +1,38 @@
+CREATE TABLE Person (
+    id int PRIMARY KEY AUTOINCREMENT,
+    age int,
+    name varchar(255),
+    address int,
+    city varchar(50),
+    state varchar(50),
+    zip varchar(50)
+    
+);
+
+
+INSERT INTO Person (age, name, address, city, state,zip)
+VALUES (20, 'Raga', '2122 Stella', 'Dallas', 'Texas', '76201'),
+VALUES (20, 'Raga', '2122 Stella', 'Dallas', 'Texas', '76201'),
+VALUES (20, 'Raga', '2122 Stella', 'Dallas', 'Texas', '76201'),
+VALUES (20, 'Raga', '2122 Stella', 'Dallas', 'Texas', '76201'),
+VALUES (20, 'Raga', '2122 Stella', 'Dallas', 'Texas', '76201'),
+VALUES (20, 'Raga', '2122 Stella', 'Dallas', 'Texas', '76201'),
+VALUES (20, 'Raga', '2122 Stella', 'Dallas', 'Texas', '76201'),
+VALUES (20, 'Raga', '2122 Stella', 'Dallas', 'Texas', '76201'),
+VALUES (20, 'Raga', '2122 Stella', 'Dallas', 'Texas', '76201'),
+VALUES (20, 'Raga', '2122 Stella', 'Dallas', 'Texas', '76201');
+
+
+Result:
+
+id	age	name	address	city	state	zip
+1	20	Raga	2122 Stella	Dallas	Texas	76201
+2	20	Raga	2122 Stella	Dallas	Texas	76201
+3	25	Ravi	2122 Stella	Denton	Texas	76205
+4	25	Raj	2122 Elm	Austin	Texas	72205
+5	30	AB	2022 Elm	Irving	Texas	729205
+6	30	AB	2022 Elm	Irving	Texas	729205
+7	30	AB	2022 Elm	Irving	Texas	729205
+8	30	AB	2022 Elm	Irving	Texas	729205
+9	30	AB	2022 Elm	Irving	Texas	729205
+10	30	AB	2022 Elm	Irving	Texas	729205
